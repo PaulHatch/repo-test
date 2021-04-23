@@ -25,3 +25,5 @@ jobs:
       - uses: paulhatch/semantic-version@v4.0.1
         with:
           tag_prefix: ""
+          format: "${major}.${minor}.${patch}"
+          short_tags: false
